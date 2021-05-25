@@ -2,7 +2,7 @@ if __name__ == "__main__":
 
     from json import dump
     from requests import get
-    from bs4 import BeautifulSoup
+    from bs4 import BeautifulSoup  # type: ignore
     from typing import Dict, Union, Optional
 
     data: Dict[
